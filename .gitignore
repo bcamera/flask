@@ -2,6 +2,14 @@
 # Created by https://www.gitignore.io/api/vim,venv,flask,windows
 # Edit at https://www.gitignore.io/?templates=vim,venv,flask,windows
 
+### Database ###
+*.accdb
+*.db
+*.dbf
+*.mdb
+*.pdb
+*.sqlite3
+
 ### Flask ###
 instance/*
 !instance/.gitignore
